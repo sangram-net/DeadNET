@@ -1,8 +1,0 @@
-{
-  "appId": "space.sangram.deadnet",
-  "appName": "DeadNET",
-  "webDir": "dist",
-  "server": {
-    "androidScheme": "https"
-  }
-}
