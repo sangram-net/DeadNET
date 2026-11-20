@@ -1,0 +1,17 @@
+{
+  "name": "DeadNET \u2014 Offline Survival System",
+  "short_name": "DeadNET",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a100e",
+  "theme_color": "#0a100e",
+  "description": "Offline-first survival knowledge, planning and geographic reference.",
+  "icons": [
+    {
+      "src": "/assets/deadnet-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
