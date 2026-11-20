@@ -1,5 +1,5 @@
-const CACHE = "deadnet-core-v1";
-const CORE = ["/","/index.html","/manifest.webmanifest","/assets/deadnet-mark.svg"];
+const CACHE = "deadnet-core-v1-0-1";
+const CORE = ["/","/index.html","/manifest.webmanifest","/assets/deadnet-mark.svg","/assets/deadnet-icon-192.png","/assets/deadnet-icon-512.png"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)));
   self.skipWaiting();

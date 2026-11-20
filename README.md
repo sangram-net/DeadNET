@@ -128,3 +128,17 @@ Survival and medical content must be reviewed by qualified domain experts before
 ## License
 
 Choose and add a project license before public distribution. Keep third-party map data attribution and license obligations with every map pack.
+
+## Native Android / iOS developer builds
+
+The Capacitor platform packages are declared as dependencies. After installing npm packages, native wrappers can be generated with:
+
+```bash
+npm install
+npm run build
+npx cap add android
+npx cap add ios
+npx cap sync
+```
+
+Open Android in Android Studio to build an APK/AAB. Open iOS in Xcode on macOS to configure signing and build an IPA. Do not commit signing keys or provisioning secrets. These native binaries are not attached to this source release; use the PWA install route for immediate Android/iOS use.
