@@ -1,12 +1,7 @@
 # DeadNET
 
 **When the world goes offline, knowledge stays alive.**
-
-## First release
-
-**Version:** 1.0.0
-
-This is the first source release of DeadNET. It provides the preparedness application foundation and global country-boundary overview. Detailed regional street maps and street-level imagery are optional future data-pack integrations; they are not included in this release.
+Offline-first survival and emergency preparedness platform. Includes a survival knowledge library, NOVA local assistant, emergency tools, resource calculators, personal inventory, and offline mapping.
 
 
 DeadNET is an offline-first human preparedness and knowledge-preservation application. It is designed to keep its core reference library, household tools and personal records available locally after installation and content setup.
