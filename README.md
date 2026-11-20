@@ -2,15 +2,19 @@
 
 ### When the world goes offline, knowledge stays alive.
 
-\<p align="center">
-&#x20; \<strong>An Offline-First Digital Survival & Emergency Preparedness Platform\</strong>
-\</p>
+<p align="center">
+  <strong>An Offline-First Digital Survival & Emergency Preparedness Platform</strong>
+</p>
 
-\<p align="center">
-&#x20; \<img src="[https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-orange?style=for-the-badge](https://img.shields.io/badge/STATUS-IN%20DEVELOPMENT-orange?style=for-the-badge)" />
-&#x20; \<img src="[https://img.shields.io/badge/PLATFORM-OFFLINE--FIRST-00C853?style=for-the-badge](https://img.shields.io/badge/PLATFORM-OFFLINE--FIRST-00C853?style=for-the-badge)" />
-&#x20; \<img src="[https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge](https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge)" />
-\</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-orange?style=for-the-badge" alt="Development Status" />
+  <img src="https://img.shields.io/badge/PLATFORM-OFFLINE--FIRST-00C853?style=for-the-badge" alt="Offline First" />
+  <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge" alt="MIT License" />
+</p>
+
+<p align="center">
+  <em>Prepare for the unexpected. Preserve the knowledge. Survive the unknown.</em>
+</p>
 
 ---
 
@@ -26,9 +30,9 @@ Imagine a world where:
 - Nuclear emergencies threaten populated areas.
 - Civilization faces an extended infrastructure collapse.
 
-DeadNET aims to keep essential survival knowledge accessible when online resources are no longer available.
+When online resources become inaccessible, DeadNET aims to keep essential survival knowledge available directly on your device.
 
-From emergency first aid to water purification, navigation, disaster preparedness, and resource management, DeadNET brings essential information together in one locally accessible platform.
+From emergency first aid and water purification to navigation, disaster preparedness, and resource management, DeadNET brings essential information together in one locally accessible platform.
 
 **No accounts. No cloud dependency. No internet required after installation and downloading the necessary resources.**
 
@@ -36,18 +40,21 @@ From emergency first aid to water purification, navigation, disaster preparednes
 
 ## 🎯 Core Objectives
 
-- Build a self-contained survival knowledge library.
-- Provide access to essential information without internet connectivity.
-- Help users prepare for natural and human-made disasters.
+- Build a self-contained digital survival knowledge library.
+- Provide essential information without internet connectivity.
+- Help people prepare for natural and human-made disasters.
 - Provide practical emergency checklists and planning tools.
 - Support offline access across desktop and mobile devices.
+- Protect user privacy through local-first data storage.
 - Create an open-source survival resource anyone can improve.
 
 ---
 
-## ⚡ Features
+## ⚡ Features & Modules
 
 ### 01. Survival Handbook
+
+Essential knowledge for surviving extended emergencies.
 
 - Finding and treating drinking water.
 - Food storage and preservation.
@@ -55,8 +62,11 @@ From emergency first aid to water purification, navigation, disaster preparednes
 - Fire safety and warmth.
 - Basic outdoor survival.
 - Navigation fundamentals.
+- Essential survival equipment.
 
 ### 02. Medical & First Aid
+
+A locally accessible emergency medical reference.
 
 - Basic first-aid guidance.
 - Bleeding and wound management.
@@ -64,8 +74,11 @@ From emergency first aid to water purification, navigation, disaster preparednes
 - CPR and emergency response references.
 - Hygiene and infection prevention.
 - Emergency medical inventory.
+- Recognizing medical emergencies.
 
-### 03. Disaster Preparedness
+### 03. Natural Disaster Preparedness
+
+Preparation and response information for major natural disasters.
 
 - Earthquake preparedness.
 - Tsunami evacuation.
@@ -73,17 +86,23 @@ From emergency first aid to water purification, navigation, disaster preparednes
 - Wildfire safety.
 - Extreme weather emergencies.
 - Emergency evacuation planning.
+- Post-disaster safety.
 
 ### 04. Nuclear Emergency Preparedness
 
+Educational resources for understanding and responding to nuclear emergencies.
+
 - Understanding radiation and radioactive fallout.
-- Identifying appropriate shelter.
+- Identifying appropriate protective shelter.
 - Time, distance and shielding principles.
 - Fallout exposure reduction.
-- Decontamination fundamentals.
+- Basic decontamination guidance.
 - Emergency supply planning.
+- Nuclear emergency preparedness checklists.
 
 ### 05. Communication & Navigation
+
+Essential communication and navigation knowledge when conventional networks fail.
 
 - Radio communication fundamentals.
 - Emergency signaling.
@@ -91,25 +110,30 @@ From emergency first aid to water purification, navigation, disaster preparednes
 - Offline maps.
 - Power and battery management.
 - Emergency contact information.
+- Communication planning.
 
 ### 06. Resource Management
+
+Track and organize essential supplies.
 
 - Food inventory.
 - Water inventory.
 - Medical supply tracking.
-- Battery and fuel tracking.
-- Personal survival checklist.
+- Battery and power inventory.
+- Emergency equipment checklist.
 - Local emergency notes.
+- Resource planning.
 
 ### 07. Apocalypse Simulation
 
-A fictional survival simulation environment featuring:
+A fictional survival simulation environment.
 
 - Zombie apocalypse scenarios.
 - Resource management challenges.
 - Shelter management.
 - Survival decision-making.
 - Emergency scenario exercises.
+- Long-term survival challenges.
 
 *Apocalypse Mode is designed for entertainment and educational simulation, not as a real-world emergency protocol.*
 
@@ -117,44 +141,55 @@ A fictional survival simulation environment featuring:
 
 ## 🖥️ Operating Modes
 
-| Mode               | Purpose                       |
-| ------------------ | ----------------------------- |
-| 🟢 NORMAL MODE     | Preparation and readiness     |
-| 🟠 CRISIS MODE     | Real-world emergency guidance |
+| Mode | Description |
+|---|---|
+| 🟢 NORMAL MODE | Preparation, learning and readiness |
+| 🟠 CRISIS MODE | Real-world emergency guidance |
 | 🔴 APOCALYPSE MODE | Fictional survival simulation |
 
 ---
 
 ## 📴 Offline-First Architecture
 
-DeadNET is designed to function without an active internet connection once installed and initialized.
+DeadNET is designed to remain functional without an active internet connection once installed and initialized.
 
-Its offline architecture will use:
+The application will use:
 
-- **Service Workers:** Cache application resources.
-- **IndexedDB:** Store local application data.
-- **Local JSON Database:** Store survival knowledge.
-- **Progressive Web App:** Enable installation.
-- **Local Assets:** Avoid external runtime dependencies.
-- **Offline Search:** Search downloaded survival information.
+| Technology | Function |
+|---|---|
+| Service Workers | Cache application resources |
+| IndexedDB | Store local application data |
+| Local JSON Database | Store survival knowledge |
+| Progressive Web App | Enable installation |
+| Local Assets | Avoid external runtime dependencies |
+| Offline Search | Search downloaded information |
 
-Important: Users must download the application, manuals, and required map data before losing connectivity. GitHub Pages is a distribution platform, not an offline hosting solution.
+### Offline Capabilities
+
+- Access previously downloaded survival guides.
+- Search the local knowledge database.
+- Manage emergency checklists.
+- Maintain local inventory records.
+- Access bundled application resources.
+- Use downloaded offline maps.
+
+**Important:** DeadNET must be installed and its required resources downloaded before internet connectivity is lost. Offline maps must also be downloaded beforehand. GitHub Pages is a distribution platform, not an offline hosting solution.
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Technology         | Purpose                   |
-| ------------------ | ------------------------- |
-| HTML5              | Application structure     |
-| CSS3               | Interface and styling     |
-| JavaScript         | Application functionality |
-| Service Worker     | Offline caching           |
-| IndexedDB          | Local database            |
-| JSON               | Knowledge database        |
-| PWA                | Installable application   |
-| Leaflet            | Map interface             |
-| OpenStreetMap data | Offline map resources     |
+| Technology | Purpose |
+|---|---|
+| HTML5 | Application structure |
+| CSS3 | Interface and styling |
+| JavaScript | Application functionality |
+| Service Worker | Offline caching |
+| IndexedDB | Local database |
+| JSON | Knowledge database |
+| PWA | Installable application |
+| Leaflet | Map interface |
+| OpenStreetMap Data | Offline map resources |
 
 ---
 
@@ -209,58 +244,75 @@ DeadNET/
 
 ---
 
-## 🚀 Installation
+## 🚀 Getting Started
 
-### Option 1: Clone the Repository
+### Prerequisites
+
+- Git
+- A modern web browser
+- Python 3 (for local development)
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/sangram-net/DeadNET.git
+```
 
+### 2. Enter the Project Directory
+
+```bash
 cd DeadNET
 ```
 
-### Option 2: Run a Local Development Server
-
-Using Python:
+### 3. Start the Local Development Server
 
 ```bash
 python3 -m http.server 8080
 ```
 
-Open your browser:
+### 4. Open DeadNET
+
+Visit:
 
 ```text
 http://localhost:8080
 ```
 
-For testing service workers, use localhost or HTTPS.
+For service worker testing, use localhost or HTTPS.
 
-### Option 3: GitHub Pages
+---
 
-1. Push the repository to GitHub.
-2. Open repository Settings.
-3. Navigate to Pages.
-4. Select the deployment branch.
-5. Save and wait for deployment.
+## 🌐 Deployment
+
+DeadNET can be hosted through GitHub Pages.
+
+1. Open the DeadNET repository.
+2. Navigate to **Settings**.
+3. Select **Pages**.
+4. Choose the deployment branch.
+5. Save the configuration.
+6. Wait for GitHub Pages to publish the application.
+
+For genuine offline functionality, install and initialize the application while connected to the internet.
 
 ---
 
 ## 🔐 Privacy & Security
 
-DeadNET follows a local-first philosophy.
+DeadNET follows a local-first privacy philosophy.
 
 - No mandatory user accounts.
-- No cloud-based personal data storage.
+- No mandatory cloud-based personal data storage.
 - No unnecessary tracking.
-- No mandatory external APIs.
+- No mandatory external APIs during offline operation.
 - Locally stored user notes and inventories.
-- No dependence on third-party services during offline operation.
+- No external runtime dependencies for core offline functionality.
 
-Users should still protect their devices with encryption, strong passwords, and secure backups.
+Users should protect their devices with encryption, strong passwords and secure backups.
 
 ---
 
-## ⚠️ Important Safety Disclaimer
+## ⚠️ Safety Disclaimer
 
 DeadNET is an educational emergency preparedness project.
 
@@ -272,37 +324,58 @@ In real emergencies:
 - Prioritize evacuation when officially advised.
 - Never approach tsunami-affected coastlines.
 - During nuclear fallout emergencies, seek appropriate shelter immediately and follow official radiation safety guidance.
-- Seek qualified medical assistance whenever possible.
+- Use verified medical references and seek qualified medical assistance whenever possible.
 
-The zombie apocalypse content is fictional.
+**DeadNET is not a substitute for professional emergency response.**
+
+Zombie apocalypse content is fictional.
 
 ---
 
 ## 🗺️ Development Roadmap
 
+### Phase 1 — Foundation
 - [x] Project concept established.
-- [x] Repository structure planned.
+- [x] Repository created.
+- [x] Project documentation.
 - [ ] Initial dashboard interface.
+- [ ] Responsive application layout.
+
+### Phase 2 — Survival Knowledge
 - [ ] Survival handbook.
 - [ ] First-aid knowledge base.
-- [ ] Disaster preparedness library.
+- [ ] Water and food management.
+- [ ] Natural disaster library.
 - [ ] Nuclear emergency handbook.
-- [ ] Offline search functionality.
+- [ ] Communication and navigation guides.
+
+### Phase 3 — Offline Infrastructure
+- [ ] Local JSON database.
 - [ ] IndexedDB integration.
 - [ ] Service Worker implementation.
+- [ ] Offline search functionality.
 - [ ] PWA installation support.
+- [ ] Offline resource management.
+
+### Phase 4 — Advanced Features
 - [ ] Offline map integration.
-- [ ] Resource inventory manager.
 - [ ] Emergency checklist system.
+- [ ] Resource inventory manager.
+- [ ] Personal emergency journal.
 - [ ] Apocalypse simulation mode.
 - [ ] Android compatibility testing.
-- [ ] Complete offline deployment.
+
+### Phase 5 — Release
+- [ ] Complete offline testing.
+- [ ] Security and privacy review.
+- [ ] Documentation completion.
+- [ ] First stable release.
 
 ---
 
 ## 🤝 Contributing
 
-DeadNET is an open-source project, and contributions are welcome.
+DeadNET is an open-source project. Contributions, suggestions and improvements are welcome.
 
 You can contribute by:
 
@@ -321,7 +394,7 @@ Please ensure that real-world safety information comes from reliable and authori
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 See the [LICENSE](LICENSE) file for details.
 
@@ -331,15 +404,17 @@ See the [LICENSE](LICENSE) file for details.
 
 **Sangram Ganguly**
 
-- GitHub: [@sangram-net](https://github.com/sangram-net)
-- Website: [sangram.space](https://sangram.space)
+<p>
+  <a href="https://github.com/sangram-net">GitHub</a> ·
+  <a href="https://sangram.space">Website</a>
+</p>
 
 ---
 
-\<p align="center">
-&#x20; \<strong>DEADNET\</strong>
-&#x20; \<br/>
-&#x20; \<em>Prepare for the unexpected. Preserve the knowledge. Survive the unknown.\</em>
-&#x20; \<br/>\<br/>
-&#x20; ☢️ WHEN THE NETWORK DIES, DEADNET SURVIVES.
-\</p>
+<p align="center">
+  <strong>☢️ DEADNET</strong>
+  <br/>
+  <em>Prepare for the unexpected. Preserve the knowledge. Survive the unknown.</em>
+  <br/><br/>
+  <strong>WHEN THE NETWORK DIES, DEADNET SURVIVES.</strong>
+</p>
